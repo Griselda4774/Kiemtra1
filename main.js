@@ -7,7 +7,7 @@ function tinhKetQua() {
     tienvay = Number(tienvay);
     laisuat = Number(laisuat);
     thoigianvay = Number(thoigianvay);
-    if (!isNaN(thunhap, tienvay, laisuat, thoigianvay) || (thunhap, tienvay, laisuat, thoigianvay) < 0 ){
+    if (isNaN(thunhap, tienvay, laisuat, thoigianvay) || (thunhap, tienvay, laisuat, thoigianvay) < 0 ){
         alert("Kiểm tra lại dữ liệu !");
         return;
     }
