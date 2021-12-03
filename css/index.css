@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-size: 40px;
+  padding-left: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgb(122, 120, 120);
+  margin-bottom: 35px;
+}
+
+header img {
+  height: px;
+}
+
+#dudk {
+  display: none;
+}
+
+#khongdudk {
+  display: none;
+}
